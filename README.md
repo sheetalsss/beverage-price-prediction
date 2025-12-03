@@ -13,7 +13,7 @@ The dataset includes:
 - Behavioral patterns (Consumption Frequency, Brand Awareness, Purchase Channel)
 - Preferences (Packaging, Flavor, Health Concern)
 
-After extensive preprocessing and experimentation with multiple models, **XGBoost** achieved the **highest accuracy of 92%**.
+After extensive preprocessing and experimentation with multiple models, **XGBoost** achieved the **highest accuracy of 93%**.
 
 ---
 
@@ -21,7 +21,7 @@ After extensive preprocessing and experimentation with multiple models, **XGBoos
 
 | Model | Accuracy | Notes |
 |:------|:----------|:------|
-| 🎯 **XGBoost** | **92%** | Best performer — handled feature complexity & categorical encodings effectively |
+| 🎯 **XGBoost** | **93%** | Best performer — handled feature complexity & categorical encodings effectively |
 | ⚙️ Random Forest | 90% | Good, but slightly overfitted on training data |
 | 💡 Logistic Regression | 80% | Baseline benchmark |
 | 📈 SVM | 79% | Decent but slower on larger dataset |
