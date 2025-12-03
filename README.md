@@ -22,6 +22,7 @@ After extensive preprocessing and experimentation with multiple models, **XGBoos
 | Model | Accuracy | Notes |
 |:------|:----------|:------|
 | 🎯 **XGBoost** | **93%** | Best performer — handled feature complexity & categorical encodings effectively |
+| 🧠 Light GBM | 93% | Good, but XG Boost satisfies all criteria | 
 | ⚙️ Random Forest | 90% | Good, but slightly overfitted on training data |
 | 💡 Logistic Regression | 80% | Baseline benchmark |
 | 📈 SVM | 79% | Decent but slower on larger dataset |
@@ -111,7 +112,7 @@ Example run : ``` python db_helper.py ```
 
 | Metric | Value |
 |:--------|:------|
-| **Accuracy** | 92% |
+| **Accuracy** | 93% |
 | **Precision** | 0.91 |
-| **Recall** | 0.90 |
-| **F1 Score** | 0.90 |
+| **Recall** | 0.91 |
+| **F1 Score** | 0.92 |
